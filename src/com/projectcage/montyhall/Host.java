@@ -6,7 +6,7 @@ public class Host
 	{
 		int stayWins = 0;
 		int switchWins = 0;
-		double iterations = 1000;
+		double iterations = 100000;
 		
 		for (int i = 0; i < iterations; i++) {
 			Doors doors = new Doors();
